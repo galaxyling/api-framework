@@ -25,7 +25,7 @@ test_data = excel.get_data(sheet_name)
 class TestUserRegister(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        logger.info('**********UserRegisterBegin**********')
+        logger.info('------------------------------UserRegisterBegin------------------------------')
         cls.db = Handler.database_cls()
         logger.info('SQL connect')
         cls.excel = ExcelHandler(Handler.excel_path)
@@ -86,7 +86,7 @@ class TestUserRegister(unittest.TestCase):
     def tearDownClass(cls):
         logger.info('SQL connect close')
         cls.db.close()
-        logger.info('**********UserRegisterOver**********')
+        logger.info('------------------------------UserRegisterOver------------------------------')
 
 
 if __name__ == '__main__':

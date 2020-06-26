@@ -24,7 +24,7 @@ test_data = Handler.excel.get_data(sheet_name)
 class TestAdd(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        logger.info('**********TestAddBegin**********')
+        logger.info('------------------------------TestAddBegin------------------------------')
         # 获取用户token以及member_id
         cls.token = Handler().token
         cls.member_id = Handler().member_id
@@ -83,7 +83,7 @@ class TestAdd(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls) -> None:
-        logger.info('**********TestAddOver**********')
+        logger.info('------------------------------TestAddOver------------------------------')
 
 
 if __name__ == '__main__':

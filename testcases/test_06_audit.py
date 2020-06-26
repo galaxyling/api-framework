@@ -24,7 +24,7 @@ test_data = excel.get_data(sheet_name)
 class TestAudit(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        logger.info('**********TestAuditBegin**********')
+        logger.info('------------------------------TestAuditBegin------------------------------')
         cls.admin_token = Handler().admin_token
         cls.token = Handler().token
 
@@ -92,7 +92,7 @@ class TestAudit(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls) -> None:
-        logger.info('**********TestAuditOver**********')
+        logger.info('------------------------------TestAuditOver------------------------------')
 
 
 if __name__ == '__main__':

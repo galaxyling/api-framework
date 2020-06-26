@@ -25,7 +25,7 @@ test_data = excel.get_data(sheet_name)
 class TestLogin(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        logger.info('**********LoginBegin**********')
+        logger.info('------------------------------LoginBegin------------------------------')
         cls.excel = ExcelHandler(Handler.excel_path)
 
     @ddt.data(*test_data)
@@ -61,7 +61,7 @@ class TestLogin(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        logger.info('**********LoginOver**********')
+        logger.info('------------------------------LoginOver------------------------------')
 
 
 if __name__ == '__main__':

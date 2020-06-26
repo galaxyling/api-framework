@@ -27,7 +27,7 @@ class TestWithdraw(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         # 初始化数据库
-        logger.info('**********TestWithdrawBegin**********')
+        logger.info('------------------------------TestWithdrawBegin------------------------------')
         cls.db = Handler.database_cls()
         logger.info('SQL connect')
         cls.excel = ExcelHandler(Handler.excel_path)

@@ -24,7 +24,7 @@ test_data = excel.get_data(sheet_name)
 class TestRecharge(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        logger.info('**********TestRechargeBegin**********')
+        logger.info('------------------------------TestRechargeBegin------------------------------*')
         cls.token = Handler().token
         cls.member_id = Handler().member_id
         logger.info('SQL connect')
@@ -83,7 +83,7 @@ class TestRecharge(unittest.TestCase):
     def tearDownClass(cls) -> None:
         cls.db.close()
         logger.info('SQL disconnect')
-        logger.info('**********TestRechargeOver**********')
+        logger.info('------------------------------TestRechargeOver------------------------------')
 
 
 if __name__ == '__main__':
