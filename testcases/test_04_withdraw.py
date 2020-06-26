@@ -102,7 +102,7 @@ class TestWithdraw(unittest.TestCase):
     def tearDownClass(cls) -> None:
         cls.db.close()
         logger.info('SQL disconnect')
-        logger.info('**********TestWithdrawOver**********')
+        logger.info('------------------------------TestWithdrawOver------------------------------')
 
 
 if __name__ == '__main__':
