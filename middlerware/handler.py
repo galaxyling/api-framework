@@ -189,8 +189,8 @@ class Handler:
         pattern = r"#(.*?)#"
         while re.search(pattern, data):
             key = re.search(pattern, data).group(1)
-            value = getattr(self, key, "can't find attr")
-            data = re.sub(pattern, str(value), data, count=1)
+            # value = getattr(self, key, "can't find attr")
+            data = re.sub(pattern, str(getattr(self, key, "can't find attr")), data, count=1)
         return data
 
 
