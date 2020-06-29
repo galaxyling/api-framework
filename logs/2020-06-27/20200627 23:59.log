@@ -1,0 +1,662 @@
+2020-06-27 23:59:12,976 - [run_test.py--line:22 - INFO]:**********正在加载测试用例**********
+2020-06-27 23:59:13,003 - [test_01_register.py--line:28 - INFO]:------------------------------UserRegisterBegin------------------------------
+2020-06-27 23:59:13,109 - [test_01_register.py--line:30 - INFO]:SQL connect
+2020-06-27 23:59:13,168 - [test_01_register.py--line:37 - INFO]:**********正在获取第1条<注册成功>用例**********
+2020-06-27 23:59:13,450 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:13,882 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.379377
+2020-06-27 23:59:14,013 - [test_01_register.py--line:69 - INFO]:查询数据库,确认数据库有该条注册信息
+2020-06-27 23:59:14,013 - [test_01_register.py--line:70 - INFO]:**********第1条<注册成功>用例测试结束**********
+2020-06-27 23:59:14,114 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:14,114 - [test_01_register.py--line:37 - INFO]:**********正在获取第2条<账号已存在>用例**********
+2020-06-27 23:59:14,114 - [test_01_register.py--line:45 - INFO]:重复注册用例,从数据库中随机读取一条mobile_phone用于注册
+2020-06-27 23:59:14,114 - [test_01_register.py--line:46 - INFO]:正在查询数据库
+2020-06-27 23:59:14,180 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:14,278 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.09399
+2020-06-27 23:59:14,279 - [test_01_register.py--line:70 - INFO]:**********第2条<账号已存在>用例测试结束**********
+2020-06-27 23:59:14,382 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:14,382 - [test_01_register.py--line:37 - INFO]:**********正在获取第3条<手机号码为空>用例**********
+2020-06-27 23:59:14,383 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:14,436 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.05065
+2020-06-27 23:59:14,436 - [test_01_register.py--line:70 - INFO]:**********第3条<手机号码为空>用例测试结束**********
+2020-06-27 23:59:14,530 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:14,530 - [test_01_register.py--line:37 - INFO]:**********正在获取第4条<密码为空>用例**********
+2020-06-27 23:59:14,530 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:14,575 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.042049
+2020-06-27 23:59:14,575 - [test_01_register.py--line:70 - INFO]:**********第4条<密码为空>用例测试结束**********
+2020-06-27 23:59:14,690 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:14,690 - [test_01_register.py--line:37 - INFO]:**********正在获取第5条<密码不足8位>用例**********
+2020-06-27 23:59:14,690 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:14,781 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087618
+2020-06-27 23:59:14,782 - [test_01_register.py--line:70 - INFO]:**********第5条<密码不足8位>用例测试结束**********
+2020-06-27 23:59:14,882 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:14,882 - [test_01_register.py--line:37 - INFO]:**********正在获取第6条<密码超过16位>用例**********
+2020-06-27 23:59:14,882 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:15,274 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.389119
+2020-06-27 23:59:15,275 - [test_01_register.py--line:70 - INFO]:**********第6条<密码超过16位>用例测试结束**********
+2020-06-27 23:59:15,401 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:15,401 - [test_01_register.py--line:37 - INFO]:**********正在获取第7条<手机号码不足11位>用例**********
+2020-06-27 23:59:15,401 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:15,457 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.053142
+2020-06-27 23:59:15,457 - [test_01_register.py--line:70 - INFO]:**********第7条<手机号码不足11位>用例测试结束**********
+2020-06-27 23:59:15,587 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:15,587 - [test_01_register.py--line:37 - INFO]:**********正在获取第8条<手机号码超过11位>用例**********
+2020-06-27 23:59:15,587 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:15,676 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.08618
+2020-06-27 23:59:15,676 - [test_01_register.py--line:70 - INFO]:**********第8条<手机号码超过11位>用例测试结束**********
+2020-06-27 23:59:15,789 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:15,790 - [test_01_register.py--line:37 - INFO]:**********正在获取第9条<用户类型非0,1>用例**********
+2020-06-27 23:59:15,790 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:15,855 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.063346
+2020-06-27 23:59:15,855 - [test_01_register.py--line:70 - INFO]:**********第9条<用户类型非0,1>用例测试结束**********
+2020-06-27 23:59:15,968 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:15,968 - [test_01_register.py--line:37 - INFO]:**********正在获取第10条<手机号码带字母>用例**********
+2020-06-27 23:59:15,968 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:16,009 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.039672
+2020-06-27 23:59:16,010 - [test_01_register.py--line:70 - INFO]:**********第10条<手机号码带字母>用例测试结束**********
+2020-06-27 23:59:16,137 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:16,137 - [test_01_register.py--line:37 - INFO]:**********正在获取第11条<密码带字母>用例**********
+2020-06-27 23:59:16,448 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://120.78.128.25:8766/futureloan/member/register
+2020-06-27 23:59:16,585 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.131625
+2020-06-27 23:59:16,727 - [test_01_register.py--line:69 - INFO]:查询数据库,确认数据库有该条注册信息
+2020-06-27 23:59:16,727 - [test_01_register.py--line:70 - INFO]:**********第11条<密码带字母>用例测试结束**********
+2020-06-27 23:59:16,852 - [test_01_register.py--line:83 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:16,853 - [test_01_register.py--line:87 - INFO]:SQL connect close
+2020-06-27 23:59:16,853 - [test_01_register.py--line:89 - INFO]:------------------------------UserRegisterOver------------------------------
+2020-06-27 23:59:16,853 - [test_02_login.py--line:28 - INFO]:------------------------------LoginBegin------------------------------
+2020-06-27 23:59:16,908 - [test_02_login.py--line:35 - INFO]:**********正在获取第1条<登陆成功>用例**********
+2020-06-27 23:59:16,908 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:17,183 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.136662
+2020-06-27 23:59:17,184 - [test_02_login.py--line:47 - INFO]:**********第1条用例测试结束**********
+2020-06-27 23:59:17,274 - [test_02_login.py--line:60 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:17,274 - [test_02_login.py--line:35 - INFO]:**********正在获取第2条<密码小于8位数>用例**********
+2020-06-27 23:59:17,274 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:17,654 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.377821
+2020-06-27 23:59:17,655 - [test_02_login.py--line:47 - INFO]:**********第2条用例测试结束**********
+2020-06-27 23:59:17,747 - [test_02_login.py--line:60 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:17,748 - [test_02_login.py--line:35 - INFO]:**********正在获取第3条<密码大于16位数>用例**********
+2020-06-27 23:59:17,748 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:17,922 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.17133
+2020-06-27 23:59:17,922 - [test_02_login.py--line:47 - INFO]:**********第3条用例测试结束**********
+2020-06-27 23:59:18,019 - [test_02_login.py--line:60 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:18,019 - [test_02_login.py--line:35 - INFO]:**********正在获取第4条<手机号超过11位>用例**********
+2020-06-27 23:59:18,020 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:18,133 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.110375
+2020-06-27 23:59:18,133 - [test_02_login.py--line:47 - INFO]:**********第4条用例测试结束**********
+2020-06-27 23:59:18,243 - [test_02_login.py--line:60 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:18,243 - [test_02_login.py--line:35 - INFO]:**********正在获取第5条<手机号小于11位数>用例**********
+2020-06-27 23:59:18,243 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:18,317 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.070982
+2020-06-27 23:59:18,317 - [test_02_login.py--line:47 - INFO]:**********第5条用例测试结束**********
+2020-06-27 23:59:18,436 - [test_02_login.py--line:60 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:18,436 - [test_02_login.py--line:35 - INFO]:**********正在获取第6条<密码为空>用例**********
+2020-06-27 23:59:18,436 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:18,523 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.083336
+2020-06-27 23:59:18,524 - [test_02_login.py--line:47 - INFO]:**********第6条用例测试结束**********
+2020-06-27 23:59:18,626 - [test_02_login.py--line:60 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:18,627 - [test_02_login.py--line:35 - INFO]:**********正在获取第7条<手机号码为空>用例**********
+2020-06-27 23:59:18,627 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:18,723 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.093666
+2020-06-27 23:59:18,724 - [test_02_login.py--line:47 - INFO]:**********第7条用例测试结束**********
+2020-06-27 23:59:18,831 - [test_02_login.py--line:60 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:18,831 - [test_02_login.py--line:64 - INFO]:------------------------------LoginOver------------------------------
+2020-06-27 23:59:18,831 - [test_03_recharge.py--line:27 - INFO]:------------------------------TestRechargeBegin------------------------------*
+2020-06-27 23:59:18,831 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:18,985 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.151619
+2020-06-27 23:59:18,989 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:19,473 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.480055
+2020-06-27 23:59:19,475 - [test_03_recharge.py--line:30 - INFO]:SQL connect
+2020-06-27 23:59:19,714 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第1条<充值成功-500元>用例**********
+2020-06-27 23:59:19,715 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:19,828 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.106388
+2020-06-27 23:59:19,828 - [test_03_recharge.py--line:63 - INFO]:查询数据库,是否充值成功
+2020-06-27 23:59:19,864 - [test_03_recharge.py--line:67 - INFO]:**********第1条<充值成功-500元>用例测试结束**********
+2020-06-27 23:59:19,960 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:20,025 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第2条<充值成功-金额为0>用例**********
+2020-06-27 23:59:20,026 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:21,150 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 1.118778
+2020-06-27 23:59:21,150 - [test_03_recharge.py--line:63 - INFO]:查询数据库,是否充值成功
+2020-06-27 23:59:21,471 - [test_03_recharge.py--line:67 - INFO]:**********第2条<充值成功-金额为0>用例测试结束**********
+2020-06-27 23:59:21,565 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:21,611 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第3条<充值成功-金额为25W>用例**********
+2020-06-27 23:59:21,611 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:21,741 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.122838
+2020-06-27 23:59:21,742 - [test_03_recharge.py--line:63 - INFO]:查询数据库,是否充值成功
+2020-06-27 23:59:21,784 - [test_03_recharge.py--line:67 - INFO]:**********第3条<充值成功-金额为25W>用例测试结束**********
+2020-06-27 23:59:21,864 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:21,935 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第4条<充值成功-金额带小数>用例**********
+2020-06-27 23:59:21,935 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:22,033 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.091817
+2020-06-27 23:59:22,034 - [test_03_recharge.py--line:63 - INFO]:查询数据库,是否充值成功
+2020-06-27 23:59:22,076 - [test_03_recharge.py--line:67 - INFO]:**********第4条<充值成功-金额带小数>用例测试结束**********
+2020-06-27 23:59:22,178 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:22,241 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第5条<充值成功-金额为50W>用例**********
+2020-06-27 23:59:22,241 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:22,340 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.092165
+2020-06-27 23:59:22,340 - [test_03_recharge.py--line:63 - INFO]:查询数据库,是否充值成功
+2020-06-27 23:59:22,393 - [test_03_recharge.py--line:67 - INFO]:**********第5条<充值成功-金额为50W>用例测试结束**********
+2020-06-27 23:59:22,500 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:22,539 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第6条<充值失败-充值金额大于50W>用例**********
+2020-06-27 23:59:22,540 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:22,621 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.076971
+2020-06-27 23:59:22,621 - [test_03_recharge.py--line:67 - INFO]:**********第6条<充值失败-充值金额大于50W>用例测试结束**********
+2020-06-27 23:59:22,727 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:22,770 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第7条<充值失败-充值金额为负数>用例**********
+2020-06-27 23:59:22,771 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:22,848 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.072607
+2020-06-27 23:59:22,849 - [test_03_recharge.py--line:67 - INFO]:**********第7条<充值失败-充值金额为负数>用例测试结束**********
+2020-06-27 23:59:22,963 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:23,005 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第8条<充值失败-ID为空>用例**********
+2020-06-27 23:59:23,005 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:23,105 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.095337
+2020-06-27 23:59:23,106 - [test_03_recharge.py--line:67 - INFO]:**********第8条<充值失败-ID为空>用例测试结束**********
+2020-06-27 23:59:23,225 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:23,263 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第9条<充值失败-充值金额为空>用例**********
+2020-06-27 23:59:23,264 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:23,362 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.092296
+2020-06-27 23:59:23,363 - [test_03_recharge.py--line:67 - INFO]:**********第9条<充值失败-充值金额为空>用例测试结束**********
+2020-06-27 23:59:23,482 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:23,528 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第10条<充值失败-余额小数点大于两位>用例**********
+2020-06-27 23:59:23,528 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:23,606 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.073561
+2020-06-27 23:59:23,607 - [test_03_recharge.py--line:67 - INFO]:**********第10条<充值失败-余额小数点大于两位>用例测试结束**********
+2020-06-27 23:59:23,729 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:23,768 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第11条<充值失败-数据为字符串且带有中文>用例**********
+2020-06-27 23:59:23,769 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:23,851 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.078725
+2020-06-27 23:59:23,852 - [test_03_recharge.py--line:67 - INFO]:**********第11条<充值失败-数据为字符串且带有中文>用例测试结束**********
+2020-06-27 23:59:23,980 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:24,021 - [test_03_recharge.py--line:43 - INFO]:**********正在获取第12条<充值失败-数据为字符串且为字母>用例**********
+2020-06-27 23:59:24,021 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:24,113 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087683
+2020-06-27 23:59:24,114 - [test_03_recharge.py--line:67 - INFO]:**********第12条<充值失败-数据为字符串且为字母>用例测试结束**********
+2020-06-27 23:59:24,245 - [test_03_recharge.py--line:80 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:24,245 - [test_03_recharge.py--line:85 - INFO]:SQL disconnect
+2020-06-27 23:59:24,245 - [test_03_recharge.py--line:86 - INFO]:------------------------------TestRechargeOver------------------------------
+2020-06-27 23:59:24,245 - [test_04_withdraw.py--line:30 - INFO]:------------------------------TestWithdrawBegin------------------------------
+2020-06-27 23:59:24,361 - [test_04_withdraw.py--line:32 - INFO]:SQL connect
+2020-06-27 23:59:24,435 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:24,582 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.144224
+2020-06-27 23:59:24,583 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:24,691 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.103118
+2020-06-27 23:59:24,775 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第1条<success-5000>用例**********
+2020-06-27 23:59:24,776 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:24,878 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.09694
+2020-06-27 23:59:25,005 - [test_04_withdraw.py--line:87 - INFO]:**********第1条<success-5000>用例测试结束**********
+2020-06-27 23:59:25,099 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:25,158 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第2条<success-金额为中间值25W>用例**********
+2020-06-27 23:59:25,159 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:25,254 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.089438
+2020-06-27 23:59:25,419 - [test_04_withdraw.py--line:87 - INFO]:**********第2条<success-金额为中间值25W>用例测试结束**********
+2020-06-27 23:59:25,509 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:25,565 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第3条<success-金额带小数1234.23>用例**********
+2020-06-27 23:59:25,566 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:25,662 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.09033
+2020-06-27 23:59:25,775 - [test_04_withdraw.py--line:87 - INFO]:**********第3条<success-金额带小数1234.23>用例测试结束**********
+2020-06-27 23:59:25,870 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:25,997 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第4条<success-金额小于1元>用例**********
+2020-06-27 23:59:25,998 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:26,103 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.099097
+2020-06-27 23:59:26,273 - [test_04_withdraw.py--line:87 - INFO]:**********第4条<success-金额小于1元>用例测试结束**********
+2020-06-27 23:59:26,382 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:26,449 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第5条<success-极限金额50W>用例**********
+2020-06-27 23:59:26,450 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:26,593 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.137868
+2020-06-27 23:59:26,594 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:26,670 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.069044
+2020-06-27 23:59:26,672 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/recharge
+2020-06-27 23:59:26,777 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.098248
+2020-06-27 23:59:26,844 - [test_04_withdraw.py--line:61 - INFO]:账户160246,的初始金额小于50W,充值后金额为857985.52
+2020-06-27 23:59:26,845 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:26,962 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.11126
+2020-06-27 23:59:27,089 - [test_04_withdraw.py--line:87 - INFO]:**********第5条<success-极限金额50W>用例测试结束**********
+2020-06-27 23:59:27,192 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:27,252 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第6条<failed-金额大于100W>用例**********
+2020-06-27 23:59:27,253 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:27,338 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.079382
+2020-06-27 23:59:27,338 - [test_04_withdraw.py--line:87 - INFO]:**********第6条<failed-金额大于100W>用例测试结束**********
+2020-06-27 23:59:27,447 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:27,505 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第7条<failed-金额大于50W>用例**********
+2020-06-27 23:59:27,506 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:27,594 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.082373
+2020-06-27 23:59:27,595 - [test_04_withdraw.py--line:87 - INFO]:**********第7条<failed-金额大于50W>用例测试结束**********
+2020-06-27 23:59:27,706 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:27,771 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第8条<failed-ID为空>用例**********
+2020-06-27 23:59:27,772 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:27,867 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.089055
+2020-06-27 23:59:27,868 - [test_04_withdraw.py--line:87 - INFO]:**********第8条<failed-ID为空>用例测试结束**********
+2020-06-27 23:59:27,981 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:28,043 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第9条<failed-金额为空>用例**********
+2020-06-27 23:59:28,044 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:28,126 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.076032
+2020-06-27 23:59:28,127 - [test_04_withdraw.py--line:87 - INFO]:**********第9条<failed-金额为空>用例测试结束**********
+2020-06-27 23:59:28,244 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:28,323 - [test_04_withdraw.py--line:45 - INFO]:**********正在获取第10条<failed-金额不足>用例**********
+2020-06-27 23:59:28,324 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/withdraw
+2020-06-27 23:59:28,405 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.076517
+2020-06-27 23:59:28,405 - [test_04_withdraw.py--line:87 - INFO]:**********第10条<failed-金额不足>用例测试结束**********
+2020-06-27 23:59:28,523 - [test_04_withdraw.py--line:99 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:28,523 - [test_04_withdraw.py--line:104 - INFO]:SQL disconnect
+2020-06-27 23:59:28,523 - [test_04_withdraw.py--line:105 - INFO]:------------------------------TestWithdrawOver------------------------------
+2020-06-27 23:59:28,523 - [test_05_add.py--line:27 - INFO]:------------------------------TestAddBegin------------------------------
+2020-06-27 23:59:28,523 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:28,634 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.107697
+2020-06-27 23:59:28,636 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:28,740 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.098397
+2020-06-27 23:59:28,934 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为731 
+2020-06-27 23:59:29,003 - [test_05_add.py--line:43 - INFO]:**********正在获取第1条<项目添加成功:期限为1个月>用例**********
+2020-06-27 23:59:29,003 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:29,085 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.078136
+2020-06-27 23:59:29,155 - [test_05_add.py--line:64 - INFO]:建立项目后,数据库的项目数量为732 
+2020-06-27 23:59:29,156 - [test_05_add.py--line:66 - INFO]:**********第1条<项目添加成功:期限为1个月>用例测试结束**********
+2020-06-27 23:59:29,245 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:29,245 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:29,633 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为732 
+2020-06-27 23:59:29,696 - [test_05_add.py--line:43 - INFO]:**********正在获取第2条<项目添加成功:期限为36个月>用例**********
+2020-06-27 23:59:29,696 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:29,794 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.095088
+2020-06-27 23:59:29,843 - [test_05_add.py--line:64 - INFO]:建立项目后,数据库的项目数量为733 
+2020-06-27 23:59:29,843 - [test_05_add.py--line:66 - INFO]:**********第2条<项目添加成功:期限为36个月>用例测试结束**********
+2020-06-27 23:59:29,939 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:29,940 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:30,071 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为733 
+2020-06-27 23:59:30,135 - [test_05_add.py--line:43 - INFO]:**********正在获取第3条<项目添加成功:期限为10天>用例**********
+2020-06-27 23:59:30,136 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:30,231 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.092184
+2020-06-27 23:59:30,293 - [test_05_add.py--line:64 - INFO]:建立项目后,数据库的项目数量为734 
+2020-06-27 23:59:30,294 - [test_05_add.py--line:66 - INFO]:**********第3条<项目添加成功:期限为10天>用例测试结束**********
+2020-06-27 23:59:30,385 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:30,385 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:30,612 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为734 
+2020-06-27 23:59:30,674 - [test_05_add.py--line:43 - INFO]:**********正在获取第4条<项目添加成功:期限为45天>用例**********
+2020-06-27 23:59:30,674 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:30,759 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.08177
+2020-06-27 23:59:30,835 - [test_05_add.py--line:64 - INFO]:建立项目后,数据库的项目数量为735 
+2020-06-27 23:59:30,835 - [test_05_add.py--line:66 - INFO]:**********第4条<项目添加成功:期限为45天>用例测试结束**********
+2020-06-27 23:59:30,923 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:30,923 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:31,074 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为735 
+2020-06-27 23:59:31,141 - [test_05_add.py--line:43 - INFO]:**********正在获取第5条<项目添加失败:期限超过45天>用例**********
+2020-06-27 23:59:31,142 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:31,229 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.0844
+2020-06-27 23:59:31,229 - [test_05_add.py--line:66 - INFO]:**********第5条<项目添加失败:期限超过45天>用例测试结束**********
+2020-06-27 23:59:31,325 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:31,326 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:31,494 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为735 
+2020-06-27 23:59:31,559 - [test_05_add.py--line:43 - INFO]:**********正在获取第6条<项目添加失败:期限超过36个月>用例**********
+2020-06-27 23:59:31,559 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:31,649 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.08743
+2020-06-27 23:59:31,650 - [test_05_add.py--line:66 - INFO]:**********第6条<项目添加失败:期限超过36个月>用例测试结束**********
+2020-06-27 23:59:31,744 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:31,744 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:31,890 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为735 
+2020-06-27 23:59:31,952 - [test_05_add.py--line:43 - INFO]:**********正在获取第7条<项目添加失败:member_id为空>用例**********
+2020-06-27 23:59:31,952 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:32,031 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.075624
+2020-06-27 23:59:32,031 - [test_05_add.py--line:66 - INFO]:**********第7条<项目添加失败:member_id为空>用例测试结束**********
+2020-06-27 23:59:32,128 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:32,128 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:32,306 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为735 
+2020-06-27 23:59:32,371 - [test_05_add.py--line:43 - INFO]:**********正在获取第8条<项目添加失败:title为空>用例**********
+2020-06-27 23:59:32,371 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:32,459 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.084533
+2020-06-27 23:59:32,459 - [test_05_add.py--line:66 - INFO]:**********第8条<项目添加失败:title为空>用例测试结束**********
+2020-06-27 23:59:32,550 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:32,550 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:32,756 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为735 
+2020-06-27 23:59:32,818 - [test_05_add.py--line:43 - INFO]:**********正在获取第9条<项目添加失败:aomunt为空>用例**********
+2020-06-27 23:59:32,818 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:32,908 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087682
+2020-06-27 23:59:32,909 - [test_05_add.py--line:66 - INFO]:**********第9条<项目添加失败:aomunt为空>用例测试结束**********
+2020-06-27 23:59:33,002 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:33,002 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:33,133 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为735 
+2020-06-27 23:59:33,196 - [test_05_add.py--line:43 - INFO]:**********正在获取第10条<项目添加失败:loan_rate为空>用例**********
+2020-06-27 23:59:33,196 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:33,281 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.082831
+2020-06-27 23:59:33,282 - [test_05_add.py--line:66 - INFO]:**********第10条<项目添加失败:loan_rate为空>用例测试结束**********
+2020-06-27 23:59:33,375 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:33,375 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:33,594 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为735 
+2020-06-27 23:59:33,657 - [test_05_add.py--line:43 - INFO]:**********正在获取第11条<项目添加失败:loan_term为空>用例**********
+2020-06-27 23:59:33,657 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:33,741 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.081252
+2020-06-27 23:59:33,742 - [test_05_add.py--line:66 - INFO]:**********第11条<项目添加失败:loan_term为空>用例测试结束**********
+2020-06-27 23:59:33,835 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:33,836 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:33,980 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为735 
+2020-06-27 23:59:34,044 - [test_05_add.py--line:43 - INFO]:**********正在获取第12条<项目添加失败:loan_data_type为空>用例**********
+2020-06-27 23:59:34,044 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:34,136 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.088348
+2020-06-27 23:59:34,137 - [test_05_add.py--line:66 - INFO]:**********第12条<项目添加失败:loan_data_type为空>用例测试结束**********
+2020-06-27 23:59:34,229 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:34,229 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:34,376 - [test_05_add.py--line:36 - INFO]:sql connect,建立项目前,数据库的项目数量为735 
+2020-06-27 23:59:34,437 - [test_05_add.py--line:43 - INFO]:**********正在获取第13条<项目添加失败:budding_days为空>用例**********
+2020-06-27 23:59:34,437 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:34,523 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.08343
+2020-06-27 23:59:34,524 - [test_05_add.py--line:66 - INFO]:**********第13条<项目添加失败:budding_days为空>用例测试结束**********
+2020-06-27 23:59:34,618 - [test_05_add.py--line:78 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:34,619 - [test_05_add.py--line:81 - INFO]:sql disconnect
+2020-06-27 23:59:34,619 - [test_05_add.py--line:86 - INFO]:------------------------------TestAddOver------------------------------
+2020-06-27 23:59:34,619 - [test_06_audit.py--line:27 - INFO]:------------------------------TestAuditBegin------------------------------
+2020-06-27 23:59:34,619 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:34,745 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.123471
+2020-06-27 23:59:34,747 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:35,067 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.315327
+2020-06-27 23:59:35,068 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:35,150 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.077489
+2020-06-27 23:59:35,152 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:35,245 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.088191
+2020-06-27 23:59:35,247 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:35,349 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.096957
+2020-06-27 23:59:35,528 - [test_06_audit.py--line:41 - INFO]:**********正在获取第1条<项目审核-通过>用例**********
+2020-06-27 23:59:35,528 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:35,621 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.090095
+2020-06-27 23:59:35,691 - [test_06_audit.py--line:75 - INFO]:**********第1条<项目审核-通过>用例测试结束**********
+2020-06-27 23:59:35,783 - [test_06_audit.py--line:88 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:35,784 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:35,853 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.067037
+2020-06-27 23:59:35,855 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:35,932 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.072021
+2020-06-27 23:59:35,933 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:36,024 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.085389
+2020-06-27 23:59:36,185 - [test_06_audit.py--line:41 - INFO]:**********正在获取第2条<项目审核-失败>用例**********
+2020-06-27 23:59:36,185 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:36,277 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.089098
+2020-06-27 23:59:36,325 - [test_06_audit.py--line:75 - INFO]:**********第2条<项目审核-失败>用例测试结束**********
+2020-06-27 23:59:36,424 - [test_06_audit.py--line:88 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:36,424 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:36,508 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.080604
+2020-06-27 23:59:36,510 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:36,598 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.08261
+2020-06-27 23:59:36,600 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:36,678 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.072882
+2020-06-27 23:59:36,832 - [test_06_audit.py--line:41 - INFO]:**********正在获取第3条<项目审核-失败-不存在的项目>用例**********
+2020-06-27 23:59:36,832 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:36,911 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.076205
+2020-06-27 23:59:36,911 - [test_06_audit.py--line:75 - INFO]:**********第3条<项目审核-失败-不存在的项目>用例测试结束**********
+2020-06-27 23:59:37,002 - [test_06_audit.py--line:88 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:37,003 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:37,132 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.1262
+2020-06-27 23:59:37,133 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:37,225 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.08737
+2020-06-27 23:59:37,227 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:37,331 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.099074
+2020-06-27 23:59:37,487 - [test_06_audit.py--line:41 - INFO]:**********正在获取第4条<项目审核-失败-项目ID为空>用例**********
+2020-06-27 23:59:37,487 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:37,576 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.085589
+2020-06-27 23:59:37,576 - [test_06_audit.py--line:75 - INFO]:**********第4条<项目审核-失败-项目ID为空>用例测试结束**********
+2020-06-27 23:59:37,666 - [test_06_audit.py--line:88 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:37,667 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:37,746 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.077245
+2020-06-27 23:59:37,747 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:37,831 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.078553
+2020-06-27 23:59:37,833 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:37,966 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.128661
+2020-06-27 23:59:38,149 - [test_06_audit.py--line:41 - INFO]:**********正在获取第5条<项目审核-失败-approved_or_not为空>用例**********
+2020-06-27 23:59:38,149 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:38,226 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.074277
+2020-06-27 23:59:38,227 - [test_06_audit.py--line:75 - INFO]:**********第5条<项目审核-失败-approved_or_not为空>用例测试结束**********
+2020-06-27 23:59:38,320 - [test_06_audit.py--line:88 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:38,320 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:38,399 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.076363
+2020-06-27 23:59:38,401 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:38,497 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.09093
+2020-06-27 23:59:38,499 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:38,587 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.082393
+2020-06-27 23:59:38,760 - [test_06_audit.py--line:41 - INFO]:**********正在获取第6条<项目审核-失败-项目不在审核中状态>用例**********
+2020-06-27 23:59:38,806 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:38,911 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.099089
+2020-06-27 23:59:38,912 - [test_06_audit.py--line:75 - INFO]:**********第6条<项目审核-失败-项目不在审核中状态>用例测试结束**********
+2020-06-27 23:59:39,007 - [test_06_audit.py--line:88 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:39,007 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:39,099 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.089052
+2020-06-27 23:59:39,102 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:39,211 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.10332
+2020-06-27 23:59:39,212 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:39,300 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.082624
+2020-06-27 23:59:39,787 - [test_06_audit.py--line:41 - INFO]:**********正在获取第7条<项目审核-失败-项目不在审核中状态>用例**********
+2020-06-27 23:59:39,787 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:39,892 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.101749
+2020-06-27 23:59:39,893 - [test_06_audit.py--line:75 - INFO]:**********第7条<项目审核-失败-项目不在审核中状态>用例测试结束**********
+2020-06-27 23:59:39,983 - [test_06_audit.py--line:88 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:39,983 - [test_06_audit.py--line:95 - INFO]:------------------------------TestAuditOver------------------------------
+2020-06-27 23:59:39,983 - [test_07_invest.py--line:28 - INFO]:------------------------------TestInvestBegin------------------------------
+2020-06-27 23:59:40,153 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:40,240 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.084058
+2020-06-27 23:59:40,288 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:40,389 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.094621
+2020-06-27 23:59:40,440 - [test_07_invest.py--line:54 - INFO]:**********正在获取第1条<投资成功-但是未结束>用例**********
+2020-06-27 23:59:40,441 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:40,740 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.293204
+2020-06-27 23:59:40,742 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:40,955 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.208355
+2020-06-27 23:59:40,957 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:41,133 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.170264
+2020-06-27 23:59:41,135 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:41,226 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.085831
+2020-06-27 23:59:41,227 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:41,310 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.078466
+2020-06-27 23:59:41,312 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:41,423 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.106178
+2020-06-27 23:59:41,423 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:41,527 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.09776
+2020-06-27 23:59:41,529 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:41,672 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.136466
+2020-06-27 23:59:41,864 - [test_07_invest.py--line:104 - INFO]:**********第1条<投资成功-但是未结束>用例测试结束**********
+2020-06-27 23:59:41,957 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:42,112 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:42,240 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.125601
+2020-06-27 23:59:42,291 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:42,394 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.097573
+2020-06-27 23:59:42,443 - [test_07_invest.py--line:54 - INFO]:**********正在获取第2条<投资成功-项目结束>用例**********
+2020-06-27 23:59:42,443 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:42,521 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.071423
+2020-06-27 23:59:42,523 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:42,601 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.073406
+2020-06-27 23:59:42,603 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:42,692 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.083761
+2020-06-27 23:59:42,694 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:42,806 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.105921
+2020-06-27 23:59:42,807 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:42,942 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.129487
+2020-06-27 23:59:42,944 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:43,025 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.075721
+2020-06-27 23:59:43,025 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:43,115 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.085832
+2020-06-27 23:59:43,118 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:43,243 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.120707
+2020-06-27 23:59:43,436 - [test_07_invest.py--line:104 - INFO]:**********第2条<投资成功-项目结束>用例测试结束**********
+2020-06-27 23:59:43,532 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:43,732 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:43,866 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.131903
+2020-06-27 23:59:43,919 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:44,006 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.080569
+2020-06-27 23:59:44,055 - [test_07_invest.py--line:54 - INFO]:**********正在获取第3条<投资失败-投资金额带小数>用例**********
+2020-06-27 23:59:44,056 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:44,150 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.088086
+2020-06-27 23:59:44,152 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:44,264 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.106634
+2020-06-27 23:59:44,266 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:44,349 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.078213
+2020-06-27 23:59:44,351 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:44,462 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.105853
+2020-06-27 23:59:44,463 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:44,617 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.148465
+2020-06-27 23:59:44,619 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:44,714 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.089863
+2020-06-27 23:59:44,715 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:44,799 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.079225
+2020-06-27 23:59:44,801 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:44,908 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.101336
+2020-06-27 23:59:44,909 - [test_07_invest.py--line:104 - INFO]:**********第3条<投资失败-投资金额带小数>用例测试结束**********
+2020-06-27 23:59:45,011 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:45,188 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:45,288 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.097797
+2020-06-27 23:59:45,350 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:45,437 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.080076
+2020-06-27 23:59:45,507 - [test_07_invest.py--line:54 - INFO]:**********正在获取第4条<投资失败-投资金额为0>用例**********
+2020-06-27 23:59:45,507 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:45,601 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087296
+2020-06-27 23:59:45,603 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:45,694 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.086167
+2020-06-27 23:59:45,696 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:45,777 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.07623
+2020-06-27 23:59:45,779 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:45,861 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.076056
+2020-06-27 23:59:45,862 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:45,939 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.071809
+2020-06-27 23:59:45,941 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:46,021 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.075783
+2020-06-27 23:59:46,022 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:46,117 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.089908
+2020-06-27 23:59:46,119 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:46,205 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.080797
+2020-06-27 23:59:46,206 - [test_07_invest.py--line:104 - INFO]:**********第4条<投资失败-投资金额为0>用例测试结束**********
+2020-06-27 23:59:46,305 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:46,508 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:46,599 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087697
+2020-06-27 23:59:46,913 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:47,016 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.096701
+2020-06-27 23:59:47,086 - [test_07_invest.py--line:54 - INFO]:**********正在获取第5条<投资失败-投资金额小于100>用例**********
+2020-06-27 23:59:47,087 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:47,212 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.119014
+2020-06-27 23:59:47,214 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:47,381 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.163037
+2020-06-27 23:59:47,383 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:47,481 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.092383
+2020-06-27 23:59:47,482 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:47,655 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.168183
+2020-06-27 23:59:47,656 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:47,779 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.118254
+2020-06-27 23:59:47,781 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:48,901 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 1.114891
+2020-06-27 23:59:48,901 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:48,983 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.075958
+2020-06-27 23:59:48,985 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:49,063 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.073167
+2020-06-27 23:59:49,064 - [test_07_invest.py--line:104 - INFO]:**********第5条<投资失败-投资金额小于100>用例测试结束**********
+2020-06-27 23:59:49,161 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:49,349 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:49,422 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.069276
+2020-06-27 23:59:49,483 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:49,595 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.105719
+2020-06-27 23:59:49,929 - [test_07_invest.py--line:54 - INFO]:**********正在获取第6条<投资失败-余额为空>用例**********
+2020-06-27 23:59:49,929 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:50,017 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.08226
+2020-06-27 23:59:50,019 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:50,112 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.088161
+2020-06-27 23:59:50,113 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:50,210 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.091509
+2020-06-27 23:59:50,211 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:50,367 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.151366
+2020-06-27 23:59:50,368 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:50,445 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.072315
+2020-06-27 23:59:50,447 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:50,534 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.082512
+2020-06-27 23:59:50,535 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:50,625 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.085245
+2020-06-27 23:59:50,627 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:50,711 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.078901
+2020-06-27 23:59:50,712 - [test_07_invest.py--line:104 - INFO]:**********第6条<投资失败-余额为空>用例测试结束**********
+2020-06-27 23:59:50,801 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:51,030 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:51,104 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.071508
+2020-06-27 23:59:51,163 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:51,247 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.077409
+2020-06-27 23:59:51,319 - [test_07_invest.py--line:54 - INFO]:**********正在获取第7条<投资失败-项目id为空>用例**********
+2020-06-27 23:59:51,319 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:51,440 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.114677
+2020-06-27 23:59:51,442 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:52,534 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 1.087325
+2020-06-27 23:59:52,536 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:52,617 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.076025
+2020-06-27 23:59:52,618 - [test_07_invest.py--line:104 - INFO]:**********第7条<投资失败-项目id为空>用例测试结束**********
+2020-06-27 23:59:52,709 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:52,904 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:53,006 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.099109
+2020-06-27 23:59:53,062 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:53,137 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.068562
+2020-06-27 23:59:53,203 - [test_07_invest.py--line:54 - INFO]:**********正在获取第8条<投资失败-会员id为空>用例**********
+2020-06-27 23:59:53,203 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:53,287 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.077881
+2020-06-27 23:59:53,289 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:53,372 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.078333
+2020-06-27 23:59:53,373 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:53,719 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.340987
+2020-06-27 23:59:53,720 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:53,800 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.074531
+2020-06-27 23:59:53,802 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:53,895 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087513
+2020-06-27 23:59:53,895 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:54,017 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.116347
+2020-06-27 23:59:54,020 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:54,114 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087727
+2020-06-27 23:59:54,114 - [test_07_invest.py--line:104 - INFO]:**********第8条<投资失败-会员id为空>用例测试结束**********
+2020-06-27 23:59:54,206 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:54,403 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:54,485 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.079235
+2020-06-27 23:59:54,561 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:54,645 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.0785
+2020-06-27 23:59:54,703 - [test_07_invest.py--line:54 - INFO]:**********正在获取第9条<投资失败-未审核通过的项目>用例**********
+2020-06-27 23:59:54,704 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:54,819 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.1088
+2020-06-27 23:59:54,821 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:54,914 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087969
+2020-06-27 23:59:54,915 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:54,995 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.073933
+2020-06-27 23:59:54,996 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:55,115 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.114575
+2020-06-27 23:59:55,116 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:55,200 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.078479
+2020-06-27 23:59:55,201 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:55,303 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.095872
+2020-06-27 23:59:55,303 - [test_07_invest.py--line:104 - INFO]:**********第9条<投资失败-未审核通过的项目>用例测试结束**********
+2020-06-27 23:59:55,394 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:55,610 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:55,698 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.084465
+2020-06-27 23:59:55,746 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:55,845 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.092408
+2020-06-27 23:59:55,896 - [test_07_invest.py--line:54 - INFO]:**********正在获取第10条<投资失败-投标金额超过可投金额>用例**********
+2020-06-27 23:59:55,897 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:55,984 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.080789
+2020-06-27 23:59:55,986 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:56,065 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.074776
+2020-06-27 23:59:56,066 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:56,160 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.089421
+2020-06-27 23:59:56,162 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:56,261 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.094831
+2020-06-27 23:59:56,263 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:56,345 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.077553
+2020-06-27 23:59:56,347 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:56,449 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.096529
+2020-06-27 23:59:56,449 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:56,527 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.072402
+2020-06-27 23:59:56,529 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:56,626 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.091494
+2020-06-27 23:59:56,626 - [test_07_invest.py--line:104 - INFO]:**********第10条<投资失败-投标金额超过可投金额>用例测试结束**********
+2020-06-27 23:59:56,716 - [test_07_invest.py--line:117 - INFO]:Write the response and result: pass 
+2020-06-27 23:59:56,938 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:57,028 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087141
+2020-06-27 23:59:57,075 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:57,172 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.09162
+2020-06-27 23:59:57,227 - [test_07_invest.py--line:54 - INFO]:**********正在获取第11条<投资失败-投资账户余额不足>用例**********
+2020-06-27 23:59:57,228 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:57,306 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.072389
+2020-06-27 23:59:57,309 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:57,401 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.087442
+2020-06-27 23:59:57,403 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:57,490 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.08252
+2020-06-27 23:59:57,492 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/loan/add
+2020-06-27 23:59:57,591 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.093692
+2020-06-27 23:59:57,592 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:57,974 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.376904
+2020-06-27 23:59:57,975 - [http_handler.py--line:21 - INFO]:正在使用patch请求,访问 http://api.lemonban.com/futureloan/loan/audit
+2020-06-27 23:59:58,092 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.112353
+2020-06-27 23:59:58,093 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/login
+2020-06-27 23:59:58,172 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.072784
+2020-06-27 23:59:58,173 - [http_handler.py--line:21 - INFO]:正在使用post请求,访问 http://api.lemonban.com/futureloan/member/invest
+2020-06-27 23:59:58,293 - [http_handler.py--line:30 - INFO]:响应结果为: <Response [200]>,耗时: 0.113983
+2020-06-27 23:59:58,293 - [test_07_invest.py--line:108 - ERROR]:第11用例出现异常,异常为0 != 2
+2020-06-27 23:59:58,378 - [test_07_invest.py--line:117 - INFO]:Write the response and result: fail 
+2020-06-27 23:59:58,380 - [test_07_invest.py--line:32 - INFO]:------------------------------TestInvestOver------------------------------
